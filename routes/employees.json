@@ -1,0 +1,69 @@
+{
+    "employee": [
+        {
+            "id": "1001",
+            "name": "nomi",
+            "address": "3,plantoon greens,barcelona",
+            "email": "nomi@email.com",
+            "password": "nomi@123",
+            "designation": "gamer analyst",
+            "tasks":[
+                {
+                    "jobOne" : "glitch at level 2",
+                    "date" : "01-01-2021",
+                    "status" : false
+                }
+            ]
+        },
+        {
+            "id": "1002",
+            "name": "bable",
+            "address": "67,gangopol towers, java islands",
+            "email": "bable@email.com",
+            "password": "bable@123",
+            "designation": "game designer",
+            "tasks":[
+                {
+                    "jobOne" : "desgin level 51",
+                    "date" : "01-01-2021",
+                    "status" : false
+                }
+            ]
+        },
+        {
+            "id": "1003",
+            "name": "certonic",
+            "address": "13,navel nasal,madagascar",
+            "email": "certonic@email.com",
+            "password": "certonic@123",
+            "designation": "room monitor",
+            "tasks":[
+                {
+                    "jobOne" : "AC is repair, cool the engine",
+                    "date" : "01-01-2021",
+                    "status" : false
+                }
+            ]
+
+        },
+        {
+            "id": "1004",
+            "name": "dquinto",
+            "address": "51,nadago matsuri,chile",
+            "email": "dquinto@email.com",
+            "password": "dquinto@123",
+            "designation": "engine runner",
+            "tasks":[
+                {
+                    "jobOne" : "engine is missing for players at 30th level",
+                    "date" : "01-01-2021",
+                    "status" : false
+                }
+            ]
+        }
+    ],
+    "jobs" : [
+        
+    ]
+    
+}

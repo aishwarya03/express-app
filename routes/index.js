@@ -1,9 +1,17 @@
 var express = require('express');
 var router = express.Router();
+var admin = require('./users.js');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+const port = process.env.PORT || 3000;
+
+var app = express();
+app.use('/', admin);
+
+
+app.listen(port, () => {
+  console.log("running.....")
+})
+
+
 
 module.exports = router;
