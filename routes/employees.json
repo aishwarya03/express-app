@@ -7,11 +7,24 @@
             "email": "nomi@email.com",
             "password": "nomi@123",
             "designation": "gamer analyst",
-            "tasks":[
+            "tasks": [
                 {
-                    "jobOne" : "glitch at level 2",
-                    "date" : "01-01-2021",
-                    "status" : false
+                    "jid": "1",
+                    "job": "there are no bikes at level 13",
+                    "date": "01-01-2021",
+                    "status": "new"
+                },
+                {
+                    "jid": "2",
+                    "job": "walk cycle at level 4",
+                    "date": "27-12-2020",
+                    "status": "new"
+                },
+                {
+                    "jid": "5",
+                    "job": "glitch at level 2",
+                    "date": "02-02-2021",
+                    "status": "inprogress"
                 }
             ]
         },
@@ -22,11 +35,12 @@
             "email": "bable@email.com",
             "password": "bable@123",
             "designation": "game designer",
-            "tasks":[
+            "tasks": [
                 {
-                    "jobOne" : "desgin level 51",
-                    "date" : "01-01-2021",
-                    "status" : false
+                    "jid": "1",
+                    "job": "desgin level 51",
+                    "date": "01-01-2021",
+                    "status": "inprogress"
                 }
             ]
         },
@@ -37,14 +51,14 @@
             "email": "certonic@email.com",
             "password": "certonic@123",
             "designation": "room monitor",
-            "tasks":[
+            "tasks": [
                 {
-                    "jobOne" : "AC is repair, cool the engine",
-                    "date" : "01-01-2021",
-                    "status" : false
+                    "jid": "1",
+                    "job": "AC is repair, cool the engine",
+                    "date": "01-01-2021",
+                    "status": "completed"
                 }
             ]
-
         },
         {
             "id": "1004",
@@ -53,17 +67,46 @@
             "email": "dquinto@email.com",
             "password": "dquinto@123",
             "designation": "engine runner",
-            "tasks":[
+            "tasks": [
                 {
-                    "jobOne" : "engine is missing for players at 30th level",
-                    "date" : "01-01-2021",
-                    "status" : false
+                    "jid": "1",
+                    "job": "engine is missing for players at 30th level",
+                    "date": "01-01-2021",
+                    "status": "new"
                 }
             ]
         }
     ],
-    "jobs" : [
-        
+    "jobs": [
+        {
+            "jid": "1",
+            "job": "engine is missing for players at 30th level",
+            "date": "01-01-2021",
+            "status": "inprogress"
+        },
+        {
+            "jid": "2",
+            "job": "engine is missing for players at 30th level",
+            "date": "04-01-2021",
+            "status": "new"
+        },
+        {
+            "jid": "3",
+            "job": "engine is missing for players at 30th level",
+            "date": "13-01-2021",
+            "status": "completed"
+        },
+        {
+            "jid": "4",
+            "job": "engine is missing for players at 30th level",
+            "date": "20-01-2021",
+            "status": "new"
+        },
+        {
+            "jid": "5",
+            "job": "glitch at level 2",
+            "date": "02-02-2021",
+            "status": "inprogress"
+        }
     ]
-    
 }

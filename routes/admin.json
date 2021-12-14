@@ -1,0 +1,19 @@
+{
+    "admins": [
+        {
+            "aid" : "1",
+            "email": "admin1@email.com",
+            "password": "admin1"
+        },
+        {
+            "aid" : "2",
+            "email": "admin2@email.com",
+            "password": "admin2"
+        },
+        {
+            "aid" : "3",
+            "email": "admin3@email.com",
+            "password": "admin3"
+        }
+    ]
+}

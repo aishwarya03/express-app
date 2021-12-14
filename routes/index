@@ -1,11 +1,15 @@
 var express = require('express');
 var router = express.Router();
-var admin = require('./users.js');
+var admin = require('./admin.js');
+var user  = require('./user.js');
 
 const port = process.env.PORT || 3000;
 
 var app = express();
-app.use('/', admin);
+app.use('/admin', admin);
+
+
+app.use('/user', user);
 
 
 app.listen(port, () => {
