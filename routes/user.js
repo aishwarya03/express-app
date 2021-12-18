@@ -1,7 +1,7 @@
 const express = require("express");
 const session = require("express-session");
 const empJson = require("./employees.json")
-const router = express.Router();
+var router = require('./router')
 router.use(express.json());
 
 router.use(session({
@@ -11,6 +11,11 @@ router.use(session({
     cookie: { maxAge: 3000000 }
 }
 ))
+
+router.use((req,res,next)=>{
+    console.log("middleaware")
+    next();
+})
 
 // login
 router.post("/login",(req,res,next) => {

@@ -1,9 +1,21 @@
 var express = require('express');
 var adminJson = require("./admin.json")
 var employeeJson = require("./employees.json")
-var router = express.Router();
+// var router = express.Router();
+var router = require('./router')
 const session = require("express-session");
 router.use(express.json());
+
+
+router.use((req,res,next)=>{
+  console.log("middleaware2")
+  next();
+})
+
+router.use((req,res,next)=>{
+  console.log("middleaware1")
+  next();
+})
 
 router.use(session({
   secret: "admin secret",
@@ -53,7 +65,7 @@ function validateId(req, res, next) {
 
 
 // show all employees
-router.get("/employees", (req, res) => {
+router.get("c", (req, res) => {
   res.status(200).send(employeeJson.employee)
 })
 

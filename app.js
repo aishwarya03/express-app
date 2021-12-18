@@ -44,6 +44,7 @@ var express = require('express');
 var router = express.Router();
 var admin = require('./routes/admin.js');
 var user  = require('./routes/user.js');
+var feedback  = require('./routes/feedback.js');
 
 const port = process.env.PORT || 3000;
 
@@ -52,6 +53,7 @@ app.use('/admin', admin);
 
 
 app.use('/user', user);
+app.use('/feedback', feedback);
 
 
 app.listen(port, () => {
